@@ -45,7 +45,7 @@
     padding-left: 10px;
 }
 .nav-copy{
-    background-color: rgba(0, 166, 62, 1);
+    background-color: #00a63e;
     width: 123px;
     height: 52px;
     border-radius: 50px;
@@ -58,7 +58,7 @@
 
 /*banner*/
 .banner{
-    background-image: linear-gradient(to right, rgba(1, 50, 35, 1) , rgba(0, 103, 71, 1),rgba(1, 50, 35, 1));
+    background-image: linear-gradient(to right, rgb(1, 50, 35) , rgba(0, 103, 71, 1),rgba(1, 50, 35, 1));
     
  
 }
