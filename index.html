@@ -17,160 +17,161 @@
             </div>
             <div class="flex gap-5">
                 <div class="flex justify-between rounded-md px-3 items-center h-8 w-12 bg-[#41FF6B]/10 ">
-                    <p class="font-bold pr-1">0</p>
+                    <p id="heart-count" class="font-bold pr-1">0</p>
                     <img src="assets/heart.png" alt="" class="size-4">
                 </div>
                 <div class="flex justify-between rounded-md px-3 items-center h-8 w-18 bg-[#41FF6B]/10">
-                    <p class="font-bold pr-1">100</p>
+                    <p id="available-coin" class="font-bold pr-1">100</p>
                     <img src="assets/coin.png" alt="" class="size-4">
                 </div>
                 <div class=" h-8 w-12 rounded-md  bg-green-700">
-                 <p class=" pt-2  px-1 font-semibold text-[12px] text-white">2 Copy</p>
+                 <p  id="copy" class=" pt-2  px-1 font-semibold text-[12px] text-white"> <span id="copy-count">2</span>Copy</p>
                  
                 </div>
             </div>
         </nav>
     </header>
-    <div class="h-60 bg-gradient-to-r from-[rgb(1,50,35)] via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)] py-4  ">
-        <div class="grid grid-cols-1 items-center justify-between">
-        <img src="assets/logo-dark.png" alt="" class="size-15  ">
-        <h1 class="font-bold text-[20px] text-white">Emergency Service Directory</h1>
-        <p class="text-white">Government Emergency Services at Your Fingertip - A Project by  Government of the People's Republic of Bangladesh</p>
+    <div class="h-60 bg-gradient-to-r from-[rgb(1,50,35)] via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)] py-4 flex flex-col justify-center items-center text-center ">
+        <div >
+            <div class="flex justify-center items-center">
+        <img src="assets/logo-dark.png" alt="" class="size-16 md:size-20"></div>
+        <h1 class="font-bold text-[20px] text-white text-xl md:text-2xl py-2 align-middle">Emergency Service Directory</h1>
+        <p class="text-white text-sm md:text-base">Government Emergency Services at Your Fingertip - A Project by  Government of the People's Republic of Bangladesh</p>
     </div> 
 </div>
     <main class=" bg-[#41FF6B]/10">
-        <section id="body" class="w-5/6 mx-auto py-10 grid grid-cols-7 gap-8">
+        <section id="body" class=" md:w-5/6 mx-auto py-10 grid grid-cols-1 lg:grid-cols-7 gap-8">
             <section id="number-box" class=" col-span-5  ">
                 <!-- <h1>numbers</h1> -->
                  <div class="grid grid-cols-3 gap-6 ">
-                <div id="card" class="px-3 py-3 bg-gray-50 shadow-sm">
+                <div id="card1" class="px-3 py-3 bg-gray-50 shadow-sm">
                     <div id="icons" class="flex justify-between ">
                         
                      <img src="assets/emergency.png" alt="" class="size-9">
-                    <button id="heart-btn"> <img src="assets/heart-regular-full (1).svg" alt="" class="size-5"></button>
+                    <button id="heart-btn1"> <img src="assets/heart-regular-full (1).svg" alt="" class="size-5"></button>
                  </div>
-                 <h2 class="font-bold py-2">National Emergency Number</h2>
+                 <h2 id="service-name1" class="font-bold py-2">National Emergency Number</h2>
                  <p>National Emergency</p>
-                 <h1 class="font-extrabold text-2xl">999</h1>
+                 <h1 id="service-num1" class=" font-extrabold text-2xl">999</h1>
                  <p class="bg-gray-100 my-2 w-8 text-sm rounded-sm place-content-center"> All </p>
                  <div id="btn" class="flex justify-between gap-2 w-full ">
-                    <button class="flex items-center w-1/2 py-2 justify-center  border border-black">
+                    <button id="copy-btn1" class="flex items-center w-1/2 py-2 justify-center  border border-black">
                         <img src="assets/copy-regular-full.svg" alt="" class="size-6 pt-2">
                         <p class="pt-1">Copy</p>
                     </button>
-                    <button class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
+                    <button id="call-btn1" class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
                         <img src="assets/phone-solid-full.svg" alt="" class="size-6 pt-2">
                         <p class="pt-1">Call</p>
                     </button>
                 
                  </div>
                 </div>
-                <div id="card" class="px-3 py-3   bg-gray-50 shadow-sm">
+                <div id="card2" class="px-3 py-3   bg-gray-50 shadow-sm">
                     <div id="icons" class="flex justify-between ">
                         
                      <img src="assets/police.png" alt="" class="size-9">
-                     <img src="assets/heart-regular-full (1).svg" alt="" class="size-5">
+                    <button id="heart-btn2"> <img src="assets/heart-regular-full (1).svg" alt="" class="size-5"> </button>
                  </div>
                  <h2 class="font-bold py-2">Police Helpline Number</h2>
                  <p>Police</p>
                  <h1 class="font-extrabold text-2xl">999</h1>
                  <p class="bg-gray-100 my-2 w-8 text-sm rounded-sm place-content-center"> Police </p>
                  <div id="btn" class="flex justify-between gap-2 w-full ">
-                    <button class="flex items-center w-1/2 py-2 justify-center  border border-black">
+                    <button id="copy-btn2" class="flex items-center w-1/2 py-2 justify-center  border border-black">
                         <img src="assets/copy-regular-full.svg" alt="" class="size-6 pt-2">
                         <p class="pt-1">Copy</p>
                     </button>
-                    <button class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
+                    <button id="call-btn2" class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
                         <img src="assets/phone-solid-full.svg" alt="" class="size-6 pt-2">
-                        <p class="pt-1">Call</p>
+                        <p  class="pt-1">Call</p>
                     </button>
                 
                  </div>
                 </div>
-                <div id="card" class="px-3 py-3  bg-gray-50 shadow-sm">
+                <div id="card3" class="px-3 py-3  bg-gray-50 shadow-sm">
                     <div id="icons" class="flex justify-between ">
                         
                      <img src="assets/fire-service.png" alt="" class="size-9">
-                     <img src="assets/heart-regular-full (1).svg" alt="" class="size-5">
+                  <button id="heart-btn3">  <img src="assets/heart-regular-full (1).svg" alt="" class="size-5"></button> 
                  </div>
                  <h2 class="font-bold py-2">Fire Service Number</h2>
                  <p>Fire Service</p>
                  <h1 class="font-extrabold text-2xl">999</h1>
                  <p class="bg-gray-100 my-2 w-8 text-sm rounded-sm place-content-center"> Fire </p>
                  <div id="btn" class="flex justify-between gap-2 w-full ">
-                    <button class="flex items-center w-1/2 py-2 justify-center  border border-black">
+                    <button id="copy-btn3" class="flex items-center w-1/2 py-2 justify-center  border border-black">
                         <img src="assets/copy-regular-full.svg" alt="" class="size-6 pt-2">
                         <p class="pt-1">Copy</p>
                     </button>
-                    <button class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
+                    <button id="call-btn3" class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
                         <img src="assets/phone-solid-full.svg" alt="" class="size-6 pt-2">
-                        <p class="pt-1">Call</p>
+                        <p  class="pt-1">Call</p>
                     </button>
                 
                  </div>
                 </div>
-                <div id="card" class="px-3 py-3  bg-gray-50 shadow-sm">
+                <div id="card4" class="px-3 py-3  bg-gray-50 shadow-sm">
                     <div id="icons" class="flex justify-between ">
                         
                      <img src="assets/ambulance.png" alt="" class="size-9">
-                     <img src="assets/heart-regular-full (1).svg" alt="" class="size-5">
+                 <button id="heart-btn4">    <img src="assets/heart-regular-full (1).svg" alt="" class="size-5"></button>
                  </div>
                  <h2 class="font-bold py-2">Ambulance Service</h2>
                  <p>Ambulance</p>
                  <h1 class="font-extrabold text-2xl">1994-999999</h1>
                  <p class="bg-gray-100 my-2 w-8 text-sm rounded-sm place-content-center"> Health </p>
                  <div id="btn" class="flex justify-between gap-2 w-full ">
-                    <button class="flex items-center w-1/2 py-2 justify-center  border border-black">
+                    <button id="copy-btn4" class="flex items-center w-1/2 py-2 justify-center  border border-black">
                         <img src="assets/copy-regular-full.svg" alt="" class="size-6 pt-2">
                         <p class="pt-1">Copy</p>
                     </button>
-                    <button class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
+                    <button id="call-btn4" class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
                         <img src="assets/phone-solid-full.svg" alt="" class="size-6 pt-2">
-                        <p class="pt-1">Call</p>
+                        <p  class="pt-1">Call</p>
                     </button>
                 
                  </div>
                 </div>
-                <div id="card" class="px-3 py-3  bg-gray-50 shadow-sm">
+                <div id="card5" class="px-3 py-3  bg-gray-50 shadow-sm">
                     <div id="icons" class="flex justify-between ">
                         
                      <img src="assets/emergency.png" alt="" class="size-9">
-                     <img src="assets/heart-regular-full (1).svg" alt="" class="size-5">
+                 <button id="heart-btn5">  <img src="assets/heart-regular-full (1).svg" alt="" class="size-5"></button>  
                  </div>
                  <h2 class="font-bold py-2">Women & Child Helpline</h2>
                  <p>Women & chind helpline</p>
                  <h1 class="font-extrabold text-2xl">109</h1>
                  <p class="bg-gray-100 my-2 w-8 text-sm rounded-sm place-content-center"> Help </p>
                  <div id="btn" class="flex justify-between gap-2 w-full ">
-                    <button class="flex items-center w-1/2 py-2 justify-center  border border-black">
+                    <button id="copy-btn5" class="flex items-center w-1/2 py-2 justify-center  border border-black">
                         <img src="assets/copy-regular-full.svg" alt="" class="size-6 pt-2">
                         <p class="pt-1">Copy</p>
                     </button>
-                    <button class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
+                    <button id="call-btn5"class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
                         <img src="assets/phone-solid-full.svg" alt="" class="size-6 pt-2">
-                        <p class="pt-1">Call</p>
+                        <p  class="pt-1">Call</p>
                     </button>
                 
                  </div>
                 </div>
-                <div id="card" class="px-3 py-3  bg-gray-50 shadow-sm">
+                <div id="card6" class="px-3 py-3  bg-gray-50 shadow-sm">
                     <div id="icons" class="flex justify-between ">
                         
                      <img src="assets/emergency.png" alt="" class="size-9">
-                     <img src="assets/heart-regular-full (1).svg" alt="" class="size-5">
+            <button id="heart-btn6"> <img src="assets/heart-regular-full (1).svg" alt="" class="size-5"></button> 
                  </div>
                  <h2 class="font-bold py-2">Anti-Corruption Helpline</h2>
                  <p>Anti-Corruption</p>
                  <h1 class="font-extrabold text-2xl">106</h1>
                  <p class="bg-gray-100 my-2 w-8 text-sm rounded-sm place-content-center"> All </p>
                  <div id="btn" class="flex justify-between gap-2 w-full ">
-                    <button class="flex items-center w-1/2 py-2 justify-center  border border-black">
+                    <button id="copy-btn6" class="flex items-center w-1/2 py-2 justify-center  border border-black">
                         <img src="assets/copy-regular-full.svg" alt="" class="size-6 pt-2">
                         <p class="pt-1">Copy</p>
                     </button>
-                    <button class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
+                    <button id="call-btn6" class="flex bg-green-600  text-white w-1/2 py-2 justify-center items-center">
                         <img src="assets/phone-solid-full.svg" alt="" class="size-6 pt-2">
-                        <p class="pt-1">Call</p>
+                        <p  class="pt-1">Call</p>
                     </button>
                 
                  </div>
@@ -184,7 +185,7 @@
                 <!-- <h1>call history</h1> -->
                  <div class=" flex justify-between">
                     <div class="flex">
-                        <img src="assets/clock-rotate-left-solid-full.svg" alt="" class="size-5">
+                 <img src="assets/clock-rotate-left-solid-full.svg" alt="" class="size-5">  
                         <p class="font-semibold pl-2 ">Call History</p>
 
                     </div>
@@ -194,7 +195,8 @@
                     </div>
                  </div>
                  <div id="history-info" class="py-5 px-5">
-                    <div class="flex justify-between bg-gray-50 shadow rounded-sm gap-2 py-2">
+                    <p ></p>
+                    <!-- <div class="flex justify-between bg-gray-50 shadow rounded-sm gap-2 py-2">
                         <div>
                             <h2 class="font-bold">Fire Service Number</h2>
                             <p>999</p>
@@ -235,7 +237,7 @@
                             <p>999</p>
                         </div>
                         <div class="py-3">11:36:58 AM</div>
-                    </div>
+                    </div> -->
                  </div>
             </aside>
         </section>
