@@ -84,10 +84,15 @@
 .cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+      margin: 20px 20px 20px 20px;
   
 }
 .card1{
-      margin: 5px 5px 5px 5px;
+    padding: 20px 20px 20px 20px;
+      margin: 20px 20px 20px 20px;
+      
 }
 .icon{
     display: flex;
